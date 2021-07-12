@@ -8,7 +8,7 @@
 		<version>2.5.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.rudrasiva86</groupId>
+	<groupId>com.rudra</groupId>
 	<artifactId>springboot-mongodb-sample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-mongodb-sample</name>

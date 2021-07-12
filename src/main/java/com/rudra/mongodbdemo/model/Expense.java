@@ -1,4 +1,4 @@
-package com.rudrasiva86.springbootmongodbsample.model;
+package com.rudra.mongodbdemo.model;
 
 import java.math.BigDecimal;
 

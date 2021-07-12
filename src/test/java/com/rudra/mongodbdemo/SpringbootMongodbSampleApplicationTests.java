@@ -1,4 +1,4 @@
-package com.rudrasiva86.springbootmongodbsample;
+package com.rudra.mongodbdemo;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -14,9 +14,9 @@ import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
 import org.testcontainers.containers.MongoDBContainer;
 
-import com.rudrasiva86.springbootmongodbsample.model.Expense;
-import com.rudrasiva86.springbootmongodbsample.model.ExpenseCategory;
-import com.rudrasiva86.springbootmongodbsample.repository.ExpenseRepository;
+import com.rudra.mongodbdemo.model.Expense;
+import com.rudra.mongodbdemo.model.ExpenseCategory;
+import com.rudra.mongodbdemo.repository.ExpenseRepository;
 
 @DataMongoTest(excludeAutoConfiguration = EmbeddedMongoAutoConfiguration.class)
 class SpringbootMongodbSampleApplicationTests {

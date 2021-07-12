@@ -1,12 +1,12 @@
-package com.rudrasiva86.springbootmongodbsample.service;
+package com.rudra.mongodbdemo.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.rudrasiva86.springbootmongodbsample.model.Expense;
-import com.rudrasiva86.springbootmongodbsample.repository.ExpenseRepository;
+import com.rudra.mongodbdemo.model.Expense;
+import com.rudra.mongodbdemo.repository.ExpenseRepository;
 
 @Service
 public class ExpenseService {

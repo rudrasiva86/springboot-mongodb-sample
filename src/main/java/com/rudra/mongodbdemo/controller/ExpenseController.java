@@ -1,4 +1,4 @@
-package com.rudrasiva86.springbootmongodbsample.controller;
+package com.rudra.mongodbdemo.controller;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.rudrasiva86.springbootmongodbsample.model.Expense;
-import com.rudrasiva86.springbootmongodbsample.service.ExpenseService;
+import com.rudra.mongodbdemo.model.Expense;
+import com.rudra.mongodbdemo.service.ExpenseService;
 
 @RestController
 @RequestMapping("/api/expense")
